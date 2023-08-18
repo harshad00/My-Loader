@@ -1,0 +1,211 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+
+
+ .main {
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .send_animaction {
+     width: 500px;
+     height: 600px;
+     background-color: rgb(95, 95, 237);
+     border-radius: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .send {
+     width: 100px;
+     height: 30px;
+     background-color: white;
+     border-radius: 4px;
+     /* animation: box 4s linear; */
+     transition: all .2s;
+     /* overflow: hidden; */
+     /* display: none; */
+     cursor: pointer;
+     display: flex;
+ }
+
+ /* @keyframes box {
+
+     0% {
+         border-radius: 4px;
+         color: transparent;
+         margin-left: -55px;
+
+     }
+
+     100% {
+         width: 30px;
+         border-radius: 100%;
+         margin-left: -55px;
+
+     }
+ } */
+
+ .send img {
+     width: 30px;
+     height: 30px;
+     position: relative;
+     top: 0px;
+     left: 0px;
+     /* animation: img 2s 1s linear; */
+     transition: all 1s;
+     /* transform: rotate(133deg); */
+
+ }
+
+ @keyframes img {
+     0% {
+         top: 0px;
+         left: 0px;
+     }
+
+     12% {
+         transform: rotate(-45deg);
+         top: -100px;
+         left: 0px;
+     }
+
+     24% {
+         transform: rotate(43deg);
+         top: -100px;
+         left: 100px;
+
+     }
+
+     36% {
+         transform: rotate(133deg);
+         top: -100px;
+         left: 100px;
+     }
+
+     48% {
+         transform: rotate(133deg);
+         top: 100px;
+         left: 100px;
+     }
+
+     60% {
+         transform: rotate(220deg);
+         top: 100px;
+         left: 100px;
+     }
+
+     72% {
+         transform: rotate(220deg);
+         top: 100px;
+         left: 0px;
+     }
+
+     84% {
+         transform: rotate(320deg);
+         top: 100px;
+         left: 0px;
+     }
+
+     100% {
+         transform: rotate(320deg);
+         top: 0px;
+         left: 0px;
+     }
+
+
+
+ }
+
+ .text {
+     font-size: 23px;
+     /* position: absolute;
+     top: 340px;
+     left: 501px; */
+     /* animation: text 5s linear; */
+     display: block;
+ }
+
+ @keyframes text {
+
+     0% {
+         display: none;
+     }
+
+     100% {
+         display: none;
+     }
+ }
+
+ .sent_animation {
+     width: 100px;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+ .send_click {
+     width: 100px;
+     height: 30px;
+     background-color: white;
+     border-radius: 4px;
+     text-align: center;
+     font-size: 23px;
+     /* display: none; */
+     /* position: absolute;
+     top: 341px;
+     left: 487px; */
+     display: none;
+     /* animation: send_click 2s linear; */
+     /* display: none; */
+     position: relative;
+     top: 1.1rem;
+     left: 1rem
+ }
+
+ @keyframes send_click {
+
+     0% {
+         width: 0px;
+         color: transparent;
+     }
+
+     100% {
+         width: 100px;
+         color: black;
+     }
+ }
+
+ .animation_new {
+     width: 40px;
+     height: 40px;
+     background-color: white;
+     border-radius: 100%;
+     border: 1px solid white;
+     /* display: none; */
+     /* position: absolute;
+     top: 336px;
+     left: 461px; */
+     border: 1px solid black;
+     /* display: none; */
+     transition: all 1s;
+     display: none;
+     position: relative;
+     bottom: 1.2rem;
+
+ }
+
+ .animation_new img {
+     width: 33px;
+     height: 34px;
+     transition: all 2s;
+ }
